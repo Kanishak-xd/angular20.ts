@@ -25,6 +25,7 @@
               }
             ],
             "styles": [
+              "C:\\Users\\Aizaw\\angular20\\angular20\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
               "src/styles.css"
             ]
           },
