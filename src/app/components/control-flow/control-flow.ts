@@ -9,4 +9,6 @@ import { FormsModule } from '@angular/forms';
 })
 export class ControlFlow {
   ngModVar: string = "Synced Text";
+
+  friendList: string[] = ["Abhilaksh", "Dolith", "Devansh"];
 }
