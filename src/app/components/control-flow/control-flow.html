@@ -1,0 +1,17 @@
+<p style="font-size: 20px; color: red;">Control Flow</p>
+<table style="width: 100%; border: 1px solid black;">
+    <tr>
+        <td style="width: 100%; border: 1px solid black;">
+            @if(ngModVar === "kan") {
+                <p>Kanishak</p>
+            } @else if (ngModVar === "abh") {
+                <p>Abhilaksh</p>
+            } @else {
+                <p [class]="ngModVar">{{ngModVar}}</p>
+            }
+        </td>
+        <td style="width: 100%; border: 1px solid black;">
+            <input type="text" [(ngModel)]="ngModVar">
+        </td>
+    </tr>
+</table>
