@@ -1,0 +1,50 @@
+<table style="width: 100%; border: 1px solid black;">
+    <tr>
+        <td>
+            <p style="color: red; font-size: 20px;">Interpolation</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">
+            Name
+        </td>
+        <td style="border: 1px solid black;">
+            Age
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">
+            <input type="text" value="{{personName}}">
+        </td>
+        <td style="border: 1px solid black;">
+            <input type="text" value="{{personAge}}">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p [class]="primColClass">Property Binding</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p [class]="primColClass">Event Binding</p>
+            <button (click)="showPopUp()">Show Pop Up</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p [class]="primColClass">ngModel</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" [(ngModel)]="ngModVariable">
+        </td>
+        <td>
+            <p [class]="ngModVariable">{{ngModVariable}}</p>
+        </td>
+        <td>
+            <p [class]="ngModVariable">{{ngModVariable}}</p>
+        </td>
+    </tr>
+</table>
